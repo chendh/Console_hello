@@ -11,7 +11,7 @@ void printMultiplicationTable(int n) {
 }
 
 int main() {
-    int n;
+    int n = 1;
     std::cout << "請輸入乘法表的大小: ";
     std::cin >> n;
 
