@@ -17,6 +17,10 @@ int main()
 		cout << "Result: " << result << endl;
 		cout << "是否繼續? (y/n) ";
 		cin >> ch;
-		if (ch != 'y') break;
+		if (ch == 'y') {
+			cout << "Continue..." << endl;
+			cout << "Go..." << endl;
+		}
+		else break;
 	}
 }
